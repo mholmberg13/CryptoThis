@@ -1,21 +1,40 @@
+console.log("working")
+
+
+
 $(() => {
 
-    const $userInput = $("#search").val();
+    const userInput = $("#search").val();
 
+    const search = () => {
+        
+        
 
-    
-    $('search-button').on('submit', () => {
         $.ajax({
-            url:'https://sandbox-api.brewerydb.com/v2/' + $userInput + '/?key=adb047b22dc70cbabd24ce699e81c446',
+            url:'https://api.coinlore.com/api/ticker/?id=2321', 
+            type: 'GET',
+            
             
         }).then(
             (data)=>{
+                console.log("searching")
                 console.log(data);
             },
             ()=>{
                 console.log('bad request');
             }
         );
+    
+    }
+    
+    $('form').on('submit', (event) => {
+
+        
+        event.preventDefault();
+
+        search();        
+
+        
     });
     
 
