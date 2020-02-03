@@ -1,14 +1,15 @@
 body {
-    background-color: #c7bd30c7;
+    background-color: #171230;
     text-align: center;
     
 }
 
 header {
     font-family: 'Teko', sans-serif;
-    background-color: rgba(1, 82, 5, 0.479);
+    background-color: rgba(0, 126, 109, 0.377);
     padding: 5px;
-
+    border: 3px solid rgba(0, 153, 255, 0.274);
+    border-radius: 5px;
 }
 
 header h1 {
@@ -24,4 +25,37 @@ header h3 {
 
 form {
     margin: 20px;
+}
+
+.crypto-card {
+    display: flex;
+    border: 2px solid rgba(0, 153, 255, 0.274);
+    border-radius: 3px;
+    margin: 5px;
+    max-width: 300px;
+    position: relative;
+    overflow: hidden;
+    font-family: 'Teko', sans-serif;
+    
+}
+
+#ret, #ret2, #ret3, #ret4 {
+    position: absolute;
+    width:25%;
+    height: 40%;
+    text-align: center;
+    right: 10px;
+    top: 20px;
+    background-color: rgba(12, 214, 137, 0.445);
+    border-radius: 3px;
+    border-color: rgba(0, 153, 255, 0.274);
+    font-family: 'Teko', sans-serif;
+    line-height: 5px;
+    
+    
+}
+
+.crypto-card h2 {
+    margin-top: 7%;
+    margin-left: 4%;
 }
