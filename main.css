@@ -1,6 +1,7 @@
 body {
-    background-color: #171230;
+    background-image: url("/home/strmtrpr/Desktop/unit_1_project/unit_1_project/images/sci-fi-background-hd-1680x1050-409254.jpg");
     text-align: center;
+    font-family: 'Teko', sans-serif;
     
 }
 
@@ -23,21 +24,24 @@ header h3 {
     margin-top: 0;
 }
 
-form {
-    margin: 20px;
+#mainh3 {
+    font-size: 30px;
 }
 
-.crypto-card {
+#crypto-card1, #crypto-card2, #crypto-card3, #crypto-card4 {
     display: flex;
+    background-color: rgba(0, 126, 109, 0.377);
     border: 2px solid rgba(0, 153, 255, 0.274);
     border-radius: 3px;
     margin: 5px;
-    max-width: 300px;
+    transition: width 0.3s ease-in-out;
+    width: 300px;
     position: relative;
     overflow: hidden;
     font-family: 'Teko', sans-serif;
     
 }
+
 
 #ret, #ret2, #ret3, #ret4 {
     position: absolute;
@@ -51,11 +55,30 @@ form {
     border-color: rgba(0, 153, 255, 0.274);
     font-family: 'Teko', sans-serif;
     line-height: 5px;
-    
-    
 }
 
-.crypto-card h2 {
+#col, #col2, #col3, #col4 {
+    display: none;
+    position: absolute;
+    width:25%;
+    height: 40%;
+    text-align: center;
+    right: 10px;
+    top: 20px;
+    background-color: rgba(12, 214, 137, 0.445);
+    border-radius: 3px;
+    border-color: rgba(0, 153, 255, 0.274);
+    font-family: 'Teko', sans-serif;
+    line-height: 5px;
+}
+
+ h2 {
     margin-top: 7%;
     margin-left: 4%;
+}
+
+#content1, #content2, #content3, #content4 {
+    display: none;
+    margin-left: 90px;
+    
 }
