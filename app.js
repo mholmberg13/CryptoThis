@@ -6,7 +6,7 @@ $(() => {
 
     const expand1 = () => {
         $('#content1').show();
-        $('#crypto-card1').css('width', '500px');
+        $('#crypto-card1').css('width', '90%');
         $('#content1').css('display', 'inline')
         $('#ret').hide();
         $('#col').show();
@@ -21,7 +21,7 @@ $(() => {
 
     const expand2 = () => {
         $('#content2').show();
-        $('#crypto-card2').css('width', '500px');
+        $('#crypto-card2').css('width', '90%');
         $('#content2').css('display', 'inline')
         $('#ret2').hide();
         $('#col2').show();
@@ -36,7 +36,7 @@ $(() => {
 
     const expand3 = () => {
         $('#content').show();
-        $('#crypto-card3').css('width', '500px');
+        $('#crypto-card3').css('width', '90%');
         $('#content3').css('display', 'inline')
         $('#ret3').hide();
         $('#col3').show();
@@ -51,7 +51,7 @@ $(() => {
 
     const expand4 = () => {
         $('#content4').show();
-        $('#crypto-card4').css('width', '500px');
+        $('#crypto-card4').css('width', '90%');
         $('#content4').css('display', 'inline')
         $('#ret4').hide();
         $('#col4').show();

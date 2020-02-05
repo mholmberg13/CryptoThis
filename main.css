@@ -24,6 +24,13 @@ header h3 {
     margin-top: 0;
 }
 
+#main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
 #mainh3 {
     font-size: 30px;
 }
@@ -34,6 +41,7 @@ header h3 {
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    width: 500px;
     
 }
 
@@ -88,6 +96,6 @@ header h3 {
 
 #content1, #content2, #content3, #content4 {
     display: none;
-    margin-left: 90px;
+    margin-left: 15%;
     
 }
