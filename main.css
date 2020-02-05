@@ -96,7 +96,8 @@ header h3 {
 
 #content1, #content2, #content3, #content4 {
     display: none;
-    margin: 10%;
+    margin-left: 10%;
+    margin-right: 5%;
 
     
 }
