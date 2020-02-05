@@ -1,8 +1,9 @@
 body {
-    background: url("../images/sci-fi-background-hd-1680x1050-409254.jpg");
+    background: url("https://image.freepik.com/free-vector/abstract-futuristic-background-technology-sci-fi-concept_115579-333.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     text-align: center;
     font-family: 'Teko', sans-serif;
-    
 }
 
 header {
@@ -97,7 +98,7 @@ header h3 {
 #content1, #content2, #content3, #content4 {
     display: none;
     margin-left: 20%;
-    font-size: 80%;
+    font-size: 90%;
     text-align: left;
    
 
