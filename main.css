@@ -28,6 +28,15 @@ header h3 {
     font-size: 30px;
 }
 
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
 #crypto-card1, #crypto-card2, #crypto-card3, #crypto-card4 {
     display: flex;
     background-color: rgba(0, 126, 109, 0.377);
