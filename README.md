@@ -6,6 +6,10 @@ CrptoThis is an app that connects to the CoinLore API and returns the current pr
 
 Make a column using flexbox with a div for each currency. Make each div expand and collapse with animation. Append API data in expanded div.
 
+# API
+
+https://www.coinlore.com/cryptocurrency-data-api
+
 
 # Issues
 
